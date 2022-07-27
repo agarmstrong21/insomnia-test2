@@ -1,0 +1,44 @@
+_id: req_a86d9640c08a4fbcbdf0784e103ddeaf
+type: Request
+parentId: wrk_28dd69bde84d441e8bc87fa08124d7cf
+modified: 1658946916388
+created: 1658946916388
+url: "{{base-authserver-url}}/api/authserver/oauth/token?grant_type=client_cred\
+  entials"
+name: Get Bearer Token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_f11cd2d777a24a4486260fc8e3497f2b
+    name: ""
+    value: ""
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_7d2710ec88494ba5a83a1983cb6825ee
+  - id: pair_02f7dec0b80a4a4ba7947ca5c2b5dc9a
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_88147f62b78040babf77a6c11e1543ec
+    name: "{% savevariable 'auth-token', 'body', '$.access_token' %}"
+    value: ""
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.username }}"
+  password: "{{ _.password }}"
+metaSortKey: -1657205006467
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,9 @@
+_id: wrk_28dd69bde84d441e8bc87fa08124d7cf
+type: Workspace
+parentId: null
+modified: 1658946925900
+created: 1658946916368
+name: MDMS-15138
+description: A collection of all endpoints within Clockwork Integration of
+  Channel Calculator.
+scope: design

@@ -1,0 +1,16 @@
+_id: env_09c047d7ff904437b8872cc52c6461b4
+type: Environment
+parentId: env_6a3fbb49265b4fb8b1d4f7f8a57570cc
+modified: 1658946916370
+created: 1658946916370
+name: Dev - Arcus
+data:
+  clockwork-dev: https://clockwork.k8s.dev.nisc.cloud
+  base-authserver-url: https://api.arcus.coop
+dataPropertyOrder:
+  "&":
+    - clockwork-dev
+    - base-authserver-url
+color: null
+isPrivate: false
+metaSortKey: 1657739196687

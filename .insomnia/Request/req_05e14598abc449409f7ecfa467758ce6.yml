@@ -1,0 +1,40 @@
+_id: req_05e14598abc449409f7ecfa467758ce6
+type: Request
+parentId: fld_1f065eb4ea8a4735b882dab126a85145
+modified: 1658946916384
+created: 1658946916384
+url: https://mdm-channel-calculator-master.k8s.dev.nisc.cloud/v1/scheduled-calculations/create
+name: Channel Calculator Create Clockwork Job
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "uuid": "c2e89e31-7989-4a90-9883-f149cc99ef7e",
+      "domainUuid": "37b9c08f-044e-11e7-b438-80000b969401",
+      "name": "MDMS-15138",
+      "calculationGroup": 11,
+      "lookBackDays": 10,
+      "jobScheduledTime": "03:45",
+      "creationDate": 0,
+      "lastUpdatedOn": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_76d2df21d66a4060b2213f273ad7f308
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJYLU5JU0MtRE9NQUlOIjoibmlzYyIsInNjb3BlIjpbImFjY2Vzc19idXJzdGVyIiwiYWNjZXNzX2NoYW5uZWxfY2FsY3VsYXRvciIsImFjY2Vzc19jbG9ja3dvcmsiLCJhY2Nlc3NfZG9tYWlucyIsImFjY2Vzc19lbmdpbmVlcmluZ19kYXRhX21hbmFnZXIiLCJhY2Nlc3NfZXh0cmFjdG9yIiwiYWNjZXNzX2h1bWlkaWZpZXIiLCJhY2Nlc3NfbmlzY19rYWZrYV9jb25uZWN0IiwiYWNjZXNzX3ByZWZlcmVuY2VzIiwiYWNjZXNzX21kbV9yZWFkaW5nc19yZWFkZXJfcG9jIiwiYWNjZXNzX21kbV9yZWFkaW5nc19yZXBvc2l0b3J5IiwiYWNjZXNzX3JlYWxfdGltZV9wcmljaW5nX3ZhdWx0IiwiYWNjZXNzX3JvbGxjYWxsIiwiYWNjZXNzX3ZlZV9jb25maWd1cmF0aW9uIiwiY29udHJvbF9idXJzdGVyX3Byb2Nlc3NpbmciLCJtYW5hZ2VfY29udHJpYnV0aW5nX2Fzc2V0X3Jlc29sdmVyIiwibWFuYWdlX21kbV9yZWFkaW5nX2V4cG9ydGVyIiwibWFuYWdlX21kbV92YWxldCIsIm1hbmFnZV9tZG1fc2NvcmVib2FyZCIsIm1hbmFnZV9tZG1fZXJhc2VyIiwibWRtLXJvbGxjYWxsX2FjY2Vzc19pbXBvcnRzIiwibWRtLXJvbGxjYWxsX2RlbGV0ZV9pbXBvcnRzIiwibWRtLXZlZS1kYXRhaHViX2FjY2Vzc192ZWVfY29uZmlndXJhdGlvbiIsIm1kbS12ZWUtZGF0YWh1Yl91cGRhdGVfdmVlX2NvbmZpZ3VyYXRpb24iXSwiWC1OSVNDLVJFQUxNIjoibmlzYyIsImV4cCI6MTY1NzY4Njk2NCwiWC1OSVNDLUFVVEhTRVJWRVIiOiJhdXRoc2VydmVyIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9UUlVTVEVEX0NMSUVOVCIsIk1hbmFnZUVuZ2luZWVyaW5nRGF0YSJdLCJqdGkiOiJmMmE1YTUwMi0wMjc1LTRlNTUtOTVlMy03ZjYxMjMwMjUzNzgiLCJjbGllbnRfaWQiOiJtZG0ifQ.ZD1jnSHHWs8kXqu0K7lf-Fyv36k1QO7kohE-ZhjwmuSOgLrydglnBecKN1KjIzHR7vT_CutPq8F4vJ-u8qqELMBAatjRaoY1oE5i_qRDhzbOT9_m3dmSbC9YkqqySI2gvgosYcfV39r38IAOtH_uOUBeX5tyKLYEoBOiR25r0Kt5r4dj2KVfAN4Z7rJmO4BfEuUFSGLp1HvvQY5fmRWfcYdgorbTtR5oNZvGbzUy2r9baHRwkT7gXOhTob0P4B9gCXktGNKJiXkV8c9F3CEos2R75BJJoDNkI-2OQk6Htq30phE4quadK_-MLXSgfm7qBo1eTqF6-cCQdri_D4FLNg
+  prefix: ""
+metaSortKey: -1657205038021
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
